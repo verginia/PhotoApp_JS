@@ -7,7 +7,7 @@ export default class DataHandler{
             return data;
 
         } catch(error){
-            console.log("Error", error)
+            console.log("Error", error);
         }
     }
 }
