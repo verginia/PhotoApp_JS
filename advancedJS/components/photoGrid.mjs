@@ -31,6 +31,6 @@ export default class PhotoGrid{
                     ${this.thumbnailMarkup}
                 </div>
             </div>
-        `
+        `;
     }
 }
