@@ -1,7 +1,17 @@
+import Router from "./router.mjs";
+
 export default class Thumbnail{
     constructor(props){
         this.props = props;
 
+        document.addEventListener('click', (e) => (e.target && e.target.classList.contains("link-button")) && this.onLinkClicked(e));
+    }
+
+    onLinkClicked(e){
+        e.preventDefault();
+        e.stopImmediatePropagation();
+
+        Router.instance.pushHistory(e.target.dataset.link);
     }
 
     render(){
@@ -11,10 +21,10 @@ export default class Thumbnail{
                 <div class="card-body">
                     <h3 class="card-title">${this.props.title}</h3>
                     <p class="card-text">${this.props.shortDesc}</p>
-                    <a href="/single-photo?id=${this.props.id}" class="btn btn-primary" role="button">See more</a>
+                    <button data-link="/single-photo?id=${this.props.id}" class="btn btn-primary link-button" role="button">See more</button>
                 </div>
             </div>
         
-        `
+        `;
     }
 }
