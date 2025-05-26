@@ -11,7 +11,8 @@ export default class Thumbnail{
         e.preventDefault();
         e.stopImmediatePropagation();
 
-        Router.instance.pushHistory(e.target.dataset.link);
+        const{title, link} = e.target.dataset;
+        Router.instance.pushHistory({title, link});
     }
 
     render(){
@@ -21,7 +22,7 @@ export default class Thumbnail{
                 <div class="card-body">
                     <h3 class="card-title">${this.props.title}</h3>
                     <p class="card-text">${this.props.shortDesc}</p>
-                    <button data-link="/single-photo?id=${this.props.id}" class="btn btn-primary link-button" role="button">See more</button>
+                    <button data-title="${this.props.title}" data-link="/single-photo?id=${this.props.id}" class="btn btn-primary link-button" role="button">See more</button>
                 </div>
             </div>
         

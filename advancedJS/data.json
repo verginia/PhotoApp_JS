@@ -1,50 +1,50 @@
 [
     {
         "id": 1,
-        "srcThumbnail": "media/nature.jpg",
-        "srcImage": "media/autumn.jpg",
-        "title": "Photography that represents nature",
-        "shortDesc": "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie non odio id laoreet. Aliquam cursus ligula sem, at posuere tortor sollicitudin vitae. Quisque pulvinar vitae ex vel fermentum. Mauris vel diam a diam lacinia porta. Sed vitae pharetra nisl, finibus vulputate lectus. Integer pellentesque elit id dolor sodales, eu dignissim magna suscipit. Ut convallis erat lacinia egestas tincidunt. Suspendisse nulla tortor, faucibus et pellentesque at, posuere ac felis. Donec sed enim eget felis sollicitudin maximus. In volutpat, libero a egestas consectetur, risus ex elementum tellus, eu viverra magna justo nec dolor. Nulla euismod magna laoreet posuere elementum. In tempus molestie tortor, sit amet pulvinar mi volutpat ac."
+        "srcThumbnail": "../advancedJS/media/autumn.jpg",
+        "srcImage": "../advancedJS/media/autumn1.jpg",
+        "title": "Autumn Vibes",
+        "shortDesc": "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.",
+        "desc": "Golden leaves and crisp air in autumn. A peaceful walk through the forest in autumn shows the beauty of nature's change. Autumn, often called 'fall,' is the season between summer and winter, marked by decreasing daylight and cooler temperatures. It's characterized by the falling of leaves from trees as they prepare for winter dormancy, with colors like gold, red, and brown becoming prominent. Autumn is a wind-down season that makes me seek comfort – a transformation into cozy sweaters, wooly socks and plaid shirt days. A distinct emotional shift away from the bright bustle of summer to mellow evenings filled with heart-warming, toddies and nourishing food. "
     },
     {
         "id": 2,
-        "srcThumbnail": "media/nature.jpg",
-        "srcImage": "media/winter.jpg",
-        "title": "Photography that represents nature",
-        "shortDesc": "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie non odio id laoreet. Aliquam cursus ligula sem, at posuere tortor sollicitudin vitae. Quisque pulvinar vitae ex vel fermentum. Mauris vel diam a diam lacinia porta. Sed vitae pharetra nisl, finibus vulputate lectus. Integer pellentesque elit id dolor sodales, eu dignissim magna suscipit. Ut convallis erat lacinia egestas tincidunt. Suspendisse nulla tortor, faucibus et pellentesque at, posuere ac felis. Donec sed enim eget felis sollicitudin maximus. In volutpat, libero a egestas consectetur, risus ex elementum tellus, eu viverra magna justo nec dolor. Nulla euismod magna laoreet posuere elementum. In tempus molestie tortor, sit amet pulvinar mi volutpat ac."
+        "srcThumbnail": "../advancedJS/media/winter.jpg",
+        "srcImage": "../advancedJS/media/winter1.jpg",
+        "title": "Winter Serenity",
+        "shortDesc": "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.",
+        "desc": "Snow-covered landscapes. Snowflakes and quiet hills define the serenity of winter time. Winter, the coldest season, is a time of dormancy and transition between autumn and spring. It's characterized by shorter days, longer nights, and often snow or ice. The term 'winter' itself comes from an old Germanic word meaning 'time of water,' referring to the precipitation associated with the season." 
     },
     {
         "id": 3,
-        "srcThumbnail": "media/nature.jpg",
-        "srcImage": "media/spring.jpg",
-        "title": "Photography that represents nature",
-        "shortDesc": "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie non odio id laoreet. Aliquam cursus ligula sem, at posuere tortor sollicitudin vitae. Quisque pulvinar vitae ex vel fermentum. Mauris vel diam a diam lacinia porta. Sed vitae pharetra nisl, finibus vulputate lectus. Integer pellentesque elit id dolor sodales, eu dignissim magna suscipit. Ut convallis erat lacinia egestas tincidunt. Suspendisse nulla tortor, faucibus et pellentesque at, posuere ac felis. Donec sed enim eget felis sollicitudin maximus. In volutpat, libero a egestas consectetur, risus ex elementum tellus, eu viverra magna justo nec dolor. Nulla euismod magna laoreet posuere elementum. In tempus molestie tortor, sit amet pulvinar mi volutpat ac."
+        "srcThumbnail": "../advancedJS/media/spring.jpg",
+        "srcImage": "../advancedJS/media/spring1.jpg",
+        "title": "Spring Awakening",
+        "shortDesc": "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.",
+        "desc": "Flowers bloom as life returns. The freshness of spring breathes new life into the world after winter's sleep. Spring, the season of rebirth, follows winter and precedes summer. It's a time when temperatures rise, plants and flowers bloom, and animals awaken from hibernation. Spring is also associated with longer days and a renewed sense of energy. Spring season is the season of flowers and festivals thus brings lots of joy and happiness. Colorful and beautiful flowers completely win the heart and green grasses give us a nice ground to walk in the garden. Beautiful flying butterflies catch our eyes often in the morning and evening."
     },
     {
         "id": 4,
-        "srcThumbnail": "media/nature.jpg",
-        "srcImage": "media/summer.jpg",
-        "title": "Photography that represents nature",
-        "shortDesc": "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie non odio id laoreet. Aliquam cursus ligula sem, at posuere tortor sollicitudin vitae. Quisque pulvinar vitae ex vel fermentum. Mauris vel diam a diam lacinia porta. Sed vitae pharetra nisl, finibus vulputate lectus. Integer pellentesque elit id dolor sodales, eu dignissim magna suscipit. Ut convallis erat lacinia egestas tincidunt. Suspendisse nulla tortor, faucibus et pellentesque at, posuere ac felis. Donec sed enim eget felis sollicitudin maximus. In volutpat, libero a egestas consectetur, risus ex elementum tellus, eu viverra magna justo nec dolor. Nulla euismod magna laoreet posuere elementum. In tempus molestie tortor, sit amet pulvinar mi volutpat ac."
+        "srcThumbnail": "../advancedJS/media/summer.jpg",
+        "srcImage": "../advancedJS/media/nature.jpg",
+        "title": "Summer Heat",
+        "shortDesc": "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.",
+        "desc": "Sunshine and sea breeze. Vibrant colors and endless days define summer's energy and warmth. Summer, the warmest season, is marked by long daylight hours and a surge in plant growth. It's a time for outdoor activities like swimming and picnics, and many people travel to beaches and resorts. The weather is typically hot and sunny, and in some places, it can be the wettest season. Summer makes us happier… well, that's what the science says. We certainly feel blissed out by daily Frosty Fruits, sundowners with mates and post-swim naps under the fan, but it turns out that it's the simplicity of sunshine and warmer weather that literally changes our brains and bodies for the better."
     },
     {
         "id": 5,
-        "srcThumbnail": "media/nature.jpg",
-        "srcImage": "media/waterfall.jpg",
-        "title": "Photography that represents nature",
-        "shortDesc": "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie non odio id laoreet. Aliquam cursus ligula sem, at posuere tortor sollicitudin vitae. Quisque pulvinar vitae ex vel fermentum. Mauris vel diam a diam lacinia porta. Sed vitae pharetra nisl, finibus vulputate lectus. Integer pellentesque elit id dolor sodales, eu dignissim magna suscipit. Ut convallis erat lacinia egestas tincidunt. Suspendisse nulla tortor, faucibus et pellentesque at, posuere ac felis. Donec sed enim eget felis sollicitudin maximus. In volutpat, libero a egestas consectetur, risus ex elementum tellus, eu viverra magna justo nec dolor. Nulla euismod magna laoreet posuere elementum. In tempus molestie tortor, sit amet pulvinar mi volutpat ac."
+        "srcThumbnail": "../advancedJS/media/waterfall.jpg",
+        "srcImage": "../advancedJS/media/waterfall1.jpg",
+        "title": "Majestic Waterfall",
+        "shortDesc": "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.",
+        "desc": "Water crashes down with power. A powerful waterfall surrounded by green trees and mist. A waterfall is a location where a body of water, like a river or stream, plunges over a steep ledge or series of cliffs, creating a visual and auditory spectacle of falling water. This natural phenomenon is characterized by a dramatic drop in elevation, often resulting in a plunge pool below the waterfall. There are few sights in nature as breathtakingly beautiful as a waterfall. The cascading water, the splashing spray and mist of droplets, and the lush green environment surrounding these magnificent natural wonders lead to a truly unforgettable experience."
     },
     {
         "id": 6,
-        "srcThumbnail": "media/nature.jpg",
-        "srcImage": "media/clouds.jpg",
-        "title": "Photography that represents nature",
-        "shortDesc": "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie non odio id laoreet. Aliquam cursus ligula sem, at posuere tortor sollicitudin vitae. Quisque pulvinar vitae ex vel fermentum. Mauris vel diam a diam lacinia porta. Sed vitae pharetra nisl, finibus vulputate lectus. Integer pellentesque elit id dolor sodales, eu dignissim magna suscipit. Ut convallis erat lacinia egestas tincidunt. Suspendisse nulla tortor, faucibus et pellentesque at, posuere ac felis. Donec sed enim eget felis sollicitudin maximus. In volutpat, libero a egestas consectetur, risus ex elementum tellus, eu viverra magna justo nec dolor. Nulla euismod magna laoreet posuere elementum. In tempus molestie tortor, sit amet pulvinar mi volutpat ac."
+        "srcThumbnail": "../advancedJS/media/clouds.jpg",
+        "srcImage": "../advancedJS/media/clouds1.jpg",
+        "title": "Cloudy Skies",
+        "shortDesc": "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.",
+        "desc": "Dramatic skies full of clouds. Cloud formations paint stories across the vast sky. Clouds are visible masses of tiny water droplets or ice crystals suspended in the atmosphere. They form when water vapor in the air condenses, often due to cooling or rising air. Clouds can vary greatly in shape, size, and appearance, ranging from fluffy and cotton-like to thin and wispy. They are generally white or light gray, but can also appear in shades of gray, or even yellow, orange, or red, especially during sunrise or sunset.Clouds are classified according to their height above and appearance (texture) from the ground. The following cloud roots and translations summarize the components of this classification system: 1) Cirro-: curl of hair, high; 2) Alto-: mid; 3) Strato-: layer; 4) Nimbo-: rain, precipitation; and 5) Cumulo-: heap. "
     }
 ]

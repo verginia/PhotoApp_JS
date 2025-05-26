@@ -9,10 +9,10 @@ export default class SinglePhoto{
                 <div class="row">
                     <div class="col-md-8 col-xs-8">
                         <figure class="figure">
-                            <img src="${this.props.srcImage}" class="figure-img" width="100%">
+                            <img src="${this.props.srcImage}" class="figure-img" width="700" height="400">
                         </figure>
                     </div>
-                    <div class="col-md-3 offset-md-1 col-xs-3 offset-xs-1">
+                    <div class="col-md-3 col-xs-3 offset-xs-1">
                         ${this.props.desc}
                     </div>
                 </div>
