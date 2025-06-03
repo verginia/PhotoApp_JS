@@ -9,6 +9,7 @@ class App{
         this.data = null;
 
         Router.instance.subscribe(this.onRouteChanged.bind(this));
+
     }
 
     cleanApp(){
@@ -39,9 +40,10 @@ class App{
 
     async render(state = null){
         if(this.data == null){
-            this.data = await DataHandler.fetchData();
+            this.data = await DataHandler.instance.fetchData();
         }
 
+        //document.cookie = `myCookie=${JSON.stringify(this.data)}`;
         this.cleanApp();
         
         const main = document.createElement("main");
