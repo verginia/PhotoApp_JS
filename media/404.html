@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Page Not Found</title>
+  <script>
+    // Dacă este o rută cu query param, redirecționează către index.html păstrând query string
+    var path = window.location.pathname;
+    var search = window.location.search;
+    if (path !== '/' && path !== '/index.html') {
+      window.location.href = '/PhotoApp_JS/index.html' + search;
+    }
+  </script>
+</head>
+<body>
+  <h1>Page not found</h1>
+  <p>Redirecting...</p>
+</body>
+</html>
