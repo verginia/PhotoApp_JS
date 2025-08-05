@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <title>Page Not Found</title>
-  <script>
-    // Dacă este o rută cu query param, redirecționează către index.html păstrând query string
-    var path = window.location.pathname;
-    var search = window.location.search;
-    if (path !== '/' && path !== '/index.html') {
-      window.location.href = '/PhotoApp_JS/index.html' + search;
-    }
-  </script>
-</head>
-<body>
-  <h1>Page not found</h1>
-  <p>Redirecting...</p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      // Redirect către index.html cu query string, pentru SPA routing pe GitHub Pages
+      const redirectTo = '/PhotoApp_JS/index.html' + window.location.search;
+      window.location.replace(redirectTo);
+    </script>
+  </head>
+  <body>
+    <h1>Redirecting...</h1>
+  </body>
 </html>
