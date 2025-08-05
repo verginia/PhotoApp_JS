@@ -61,4 +61,13 @@ class App{
 }
 
 const app = new App();
-app.render();
+
+// Construiește state-ul inițial din URL (la încărcare directă)
+const path = window.location.pathname.replace("/PhotoApp_JS", "") || "/";
+const search = window.location.search;
+const fullLink = path + search;
+
+Router.instance.pushHistory({
+    title: "PhotoApp",
+    link: fullLink
+});

@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
     <script>
-      // Redirect către index.html cu query string, pentru SPA routing pe GitHub Pages
-      const redirectTo = '/PhotoApp_JS/index.html' + window.location.search;
+      // Redirect către index.html + query + pathname (după /PhotoApp_JS/)
+      const path = window.location.pathname.replace("/PhotoApp_JS", "");
+      const query = window.location.search;
+      const redirectTo = "/PhotoApp_JS/index.html" + path + query;
+
       window.location.replace(redirectTo);
     </script>
   </head>
   <body>
     <h1>Redirecting...</h1>
+    <p>If you're not redirected automatically, <a href="/PhotoApp_JS/index.html">click here</a>.</p>
   </body>
 </html>
