@@ -22,7 +22,7 @@ export default class Thumbnail{
                 <div class="card-body">
                     <h3 class="card-title">${this.props.title}</h3>
                     <p class="card-text">${this.props.shortDesc}</p>
-                    <button data-title="${this.props.title}" data-link="/single-photo?id=${this.props.id}" class="btn btn-primary link-button" role="button">See more</button>
+                    <button data-title="${this.props.title}" data-link="single-photo?id=${this.props.id}" class="btn btn-primary link-button" role="button">See more</button>
                 </div>
             </div>
         
